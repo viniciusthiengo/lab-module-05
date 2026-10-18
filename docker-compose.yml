@@ -1,0 +1,18 @@
+# Runs the backend locally on http://localhost:8000 (the frontend runs with `npm run dev`).
+# Put ANTHROPIC_API_KEY in backend/.env; without it the API runs, but tasks answer 503.
+# The memory of earlier tasks is kept in the `memory` volume.
+services:
+  backend:
+    build:
+      context: ./backend
+      target: runtime
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: ./backend/.env
+        required: false
+    volumes:
+      - memory:/data
+
+volumes:
+  memory:

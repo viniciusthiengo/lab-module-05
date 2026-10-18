@@ -1,0 +1,770 @@
+retry: 3000
+
+id: 1
+data: {"id": 1, "type": "run_started", "at": 1792301171.668184, "task": "Which carmakers have announced cars with solid-state batteries, and for which years?", "options": {"max_iterations": 5, "web_search": true, "require_approval": false, "use_memory": true, "remember": true}, "cap_usd": 0.25}
+
+id: 2
+data: {"id": 2, "type": "memory", "at": 1792301171.6697264, "notes": [{"id": "XbpUNnLR", "task": "Compare solid-state and lithium-ion batteries for electric cars, in a short report for car buyers."}]}
+
+id: 3
+data: {"id": 3, "type": "agent_started", "at": 1792301171.669738, "agent": "supervisor", "iteration": 1, "forced": false}
+
+id: 4
+data: {"id": 4, "type": "delta", "at": 1792301172.709217, "agent": "supervisor", "step": null, "text": "REASON: We"}
+
+id: 5
+data: {"id": 5, "type": "delta", "at": 1792301172.9595869, "agent": "supervisor", "step": null, "text": " need current, spec"}
+
+id: 6
+data: {"id": 6, "type": "delta", "at": 1792301173.1340125, "agent": "supervisor", "step": null, "text": "ific research on carmakers' solid-state battery announcements and target years before drafting an answer.\nDELEGATE: researcher\nT"}
+
+id: 7
+data: {"id": 7, "type": "delta", "at": 1792301173.6020477, "agent": "supervisor", "step": null, "text": "ASK: Research which carmakers (e.g., Toyota,"}
+
+id: 8
+data: {"id": 8, "type": "delta", "at": 1792301173.788081, "agent": "supervisor", "step": null, "text": " Mercedes-Benz, Nissan, Honda, BMW, Volkswagen, Hyundai, Stellantis, GM, Ford, Sam"}
+
+id: 9
+data: {"id": 9, "type": "delta", "at": 1792301173.9865053, "agent": "supervisor", "step": null, "text": "sung-backed, QuantumScape partners,"}
+
+id: 10
+data: {"id": 10, "type": "delta", "at": 1792301174.1854615, "agent": "supervisor", "step": null, "text": " Chinese automakers like NIO, SAIC,"}
+
+id: 11
+data: {"id": 11, "type": "delta", "at": 1792301174.3829443, "agent": "supervisor", "step": null, "text": " Chery, etc.) have publ"}
+
+id: 12
+data: {"id": 12, "type": "delta", "at": 1792301174.5331185, "agent": "supervisor", "step": null, "text": "icly announced plans to launch or produce elect"}
+
+id: 13
+data: {"id": 13, "type": "delta", "at": 1792301174.685096, "agent": "supervisor", "step": null, "text": "ric vehicles with solid-state batteries, and the specific years they"}
+
+id: 14
+data: {"id": 14, "type": "delta", "at": 1792301174.836583, "agent": "supervisor", "step": null, "text": " have targeted for commercialization or launch. For each carmaker, note"}
+
+id: 15
+data: {"id": 15, "type": "delta", "at": 1792301175.035624, "agent": "supervisor", "step": null, "text": ": the specific announcement/claim, target"}
+
+id: 16
+data: {"id": 16, "type": "delta", "at": 1792301175.234459, "agent": "supervisor", "step": null, "text": " year, and source. Cite web sources with br"}
+
+id: 17
+data: {"id": 17, "type": "delta", "at": 1792301175.3853366, "agent": "supervisor", "step": null, "text": "ackets. Focus on the most recent and credible announcements as"}
+
+id: 18
+data: {"id": 18, "type": "usage", "at": 1792301175.5353966, "agent": "supervisor", "cost_usd": 0.006094}
+
+id: 19
+data: {"id": 19, "type": "delta", "at": 1792301175.5356157, "agent": "supervisor", "step": null, "text": " of October 2026.\nCONTEXT: none"}
+
+id: 20
+data: {"id": 20, "type": "decision", "at": 1792301175.535658, "kind": "delegate", "iteration": 1, "reason": "We need current, specific research on carmakers' solid-state battery announcements and target years before drafting an answer.", "steps": [{"number": 1, "agent": "researcher", "task": "Research which carmakers (e.g., Toyota, Mercedes-Benz, Nissan, Honda, BMW, Volkswagen, Hyundai, Stellantis, GM, Ford, Samsung-backed, QuantumScape partners, Chinese automakers like NIO, SAIC, Chery, etc.) have publicly announced plans to launch or produce electric vehicles with solid-state batteries, and the specific years they have targeted for commercialization or launch. For each carmaker, note: the specific announcement/claim, target year, and source. Cite web sources with brackets. Focus on the most recent and credible announcements as of October 2026.", "context": []}]}
+
+id: 21
+data: {"id": 21, "type": "agent_started", "at": 1792301175.5356677, "agent": "researcher", "step": 1, "task": "Research which carmakers (e.g., Toyota, Mercedes-Benz, Nissan, Honda, BMW, Volkswagen, Hyundai, Stellantis, GM, Ford, Samsung-backed, QuantumScape partners, Chinese automakers like NIO, SAIC, Chery, etc.) have publicly announced plans to launch or produce electric vehicles with solid-state batteries, and the specific years they have targeted for commercialization or launch. For each carmaker, note: the specific announcement/claim, target year, and source. Cite web sources with brackets. Focus on the most recent and credible announcements as of October 2026."}
+
+id: 22
+data: {"id": 22, "type": "delta", "at": 1792301176.1624768, "agent": "researcher", "step": 1, "text": "I'll search for"}
+
+id: 23
+data: {"id": 23, "type": "delta", "at": 1792301176.2160313, "agent": "researcher", "step": 1, "text": " the"}
+
+id: 24
+data: {"id": 24, "type": "delta", "at": 1792301179.1634204, "agent": "researcher", "step": 1, "text": " most recent information on carmakers' solid-state battery vehicle announcements as of October 2026.##"}
+
+id: 25
+data: {"id": 25, "type": "delta", "at": 1792301179.3213325, "agent": "researcher", "step": 1, "text": " RESEARCH NOTES: Carmakers with Announced Solid-State Battery EV Plans (October 2026)\n\n---\n\n### **MAJOR CARMAKERS"}
+
+id: 26
+data: {"id": 26, "type": "delta", "at": 1792301179.4963408, "agent": "researcher", "step": 1, "text": " - TARGET YEARS 2027–"}
+
+id: 27
+data: {"id": 27, "type": "delta", "at": 1792301179.6494708, "agent": "researcher", "step": 1, "text": "2028**\n\n#### **Toyota**\n- **Announcement:**"}
+
+id: 28
+data: {"id": 28, "type": "delta", "at": 1792301179.8024647, "agent": "researcher", "step": 1, "text": " Joint venture announced"}
+
+id: 29
+data: {"id": 29, "type": "delta", "at": 1792301179.9549875, "agent": "researcher", "step": 1, "text": " October 8, 2026 with Sumitomo Metal"}
+
+id: 30
+data: {"id": 30, "type": "delta", "at": 1792301180.1064093, "agent": "researcher", "step": 1, "text": " Mining to mass-produce cathode materials; plans to launch"}
+
+id: 31
+data: {"id": 31, "type": "delta", "at": 1792301180.258414, "agent": "researcher", "step": 1, "text": " EV line with solid-state batteries in 2027 "}
+
+id: 32
+data: {"id": 32, "type": "delta", "at": 1792301180.4107654, "agent": "researcher", "step": 1, "text": "or 2028 [Live"}
+
+id: 33
+data: {"id": 33, "type": "delta", "at": 1792301180.5678957, "agent": "researcher", "step": 1, "text": "Science]\n- **Target Year:** 2027–2028"}
+
+id: 34
+data: {"id": 34, "type": "delta", "at": 1792301180.7399645, "agent": "researcher", "step": 1, "text": "\n- **Technical Details:** Expected"}
+
+id: 35
+data: {"id": 35, "type": "delta", "at": 1792301180.891881, "agent": "researcher", "step": 1, "text": " range ~460 miles, 10-minute"}
+
+id: 36
+data: {"id": 36, "type": "delta", "at": 1792301181.0691025, "agent": "researcher", "step": 1, "text": " 10–80% charge capability [Auto"}
+
+id: 37
+data: {"id": 37, "type": "delta", "at": 1792301181.2205117, "agent": "researcher", "step": 1, "text": " Edge View]\n- **Status Note:** "}
+
+id: 38
+data: {"id": 38, "type": "delta", "at": 1792301181.3708723, "agent": "researcher", "step": 1, "text": "Despite claims Toyota"}
+
+id: 39
+data: {"id": 39, "type": "delta", "at": 1792301181.5222669, "agent": "researcher", "step": 1, "text": " has already launched a solid-state EV, the company"}
+
+id: 40
+data: {"id": 40, "type": "delta", "at": 1792301181.67562, "agent": "researcher", "step": 1, "text": "'s official roadmap places the first commercial"}
+
+id: 41
+data: {"id": 41, "type": "delta", "at": 1792301181.826049, "agent": "researcher", "step": 1, "text": " model in the 2027–2028 timeframe"}
+
+id: 42
+data: {"id": 42, "type": "delta", "at": 1792301181.9773004, "agent": "researcher", "step": 1, "text": " [EVWorld]\n\n---\n\n#### **Nis"}
+
+id: 43
+data: {"id": 43, "type": "delta", "at": 1792301182.2045994, "agent": "researcher", "step": 1, "text": "san**\n- **Announcement:** Semi"}
+
+id: 44
+data: {"id": 44, "type": "delta", "at": 1792301182.3558133, "agent": "researcher", "step": 1, "text": "-solid battery versions of the Ariya and potentially a new Leaf"}
+
+id: 45
+data: {"id": 45, "type": "delta", "at": 1792301182.50769, "agent": "researcher", "step": 1, "text": " successor are targeted for 2026; true solid-state"}
+
+id: 46
+data: {"id": 46, "type": "delta", "at": 1792301182.6588686, "agent": "researcher", "step": 1, "text": " Nissan vehicles are planned for 2028 ["}
+
+id: 47
+data: {"id": 47, "type": "delta", "at": 1792301182.810074, "agent": "researcher", "step": 1, "text": "Technoolab]\n- **Target Year:** 2028"}
+
+id: 48
+data: {"id": 48, "type": "delta", "at": 1792301182.9618878, "agent": "researcher", "step": 1, "text": " (full solid-state)\n- **Status:** "}
+
+id: 49
+data: {"id": 49, "type": "delta", "at": 1792301183.1131234, "agent": "researcher", "step": 1, "text": "Pilot production line"}
+
+id: 50
+data: {"id": 50, "type": "delta", "at": 1792301183.2717087, "agent": "researcher", "step": 1, "text": " for solid-state cells at Yokohama plant, targeting"}
+
+id: 51
+data: {"id": 51, "type": "delta", "at": 1792301183.4237757, "agent": "researcher", "step": 1, "text": " 2028 for production vehicle introduction [Auto"}
+
+id: 52
+data: {"id": 52, "type": "delta", "at": 1792301183.6928735, "agent": "researcher", "step": 1, "text": " Edge View]\n\n---\n\n#### **BMW**\n- **Announcement:** Samsung"}
+
+id: 53
+data: {"id": 53, "type": "delta", "at": 1792301183.8436573, "agent": "researcher", "step": 1, "text": " SDI's Gen 5 solid-state cells expected"}
+
+id: 54
+data: {"id": 54, "type": "delta", "at": 1792301184.0001802, "agent": "researcher", "step": 1, "text": " in production vehicles from BMW between 2026"}
+
+id: 55
+data: {"id": 55, "type": "delta", "at": 1792301184.1554391, "agent": "researcher", "step": 1, "text": " and 2028; BMW intends to demonstrate a"}
+
+id: 56
+data: {"id": 56, "type": "delta", "at": 1792301184.3321574, "agent": "researcher", "step": 1, "text": " solid-state battery vehicle in 2025 and have it in"}
+
+id: 57
+data: {"id": 57, "type": "delta", "at": 1792301184.5352852, "agent": "researcher", "step": 1, "text": " limited production by 2027, using Samsung SDI cells ["}
+
+id: 58
+data: {"id": 58, "type": "delta", "at": 1792301184.711215, "agent": "researcher", "step": 1, "text": "Technoolab]\n- **Target Year:** 2027 (limited production)\n- **Status:** "}
+
+id: 59
+data: {"id": 59, "type": "delta", "at": 1792301184.8854473, "agent": "researcher", "step": 1, "text": "BMW began testing all-solid-state"}
+
+id: 60
+data: {"id": 60, "type": "delta", "at": 1792301185.037423, "agent": "researcher", "step": 1, "text": " cells from Solid Power inside a"}
+
+id: 61
+data: {"id": 61, "type": "delta", "at": 1792301185.1881154, "agent": "researcher", "step": 1, "text": " BMW i7 development vehicle [Intelligent"}
+
+id: 62
+data: {"id": 62, "type": "delta", "at": 1792301185.3396447, "agent": "researcher", "step": 1, "text": " Living]\n\n---\n\n#### **Mercedes-Benz**\n- **Announcement:** "}
+
+id: 63
+data: {"id": 63, "type": "delta", "at": 1792301185.4903557, "agent": "researcher", "step": 1, "text": "Mercedes-Benz a"}
+
+id: 64
+data: {"id": 64, "type": "delta", "at": 1792301185.6905594, "agent": "researcher", "step": 1, "text": "iming to launch solid-state batteries next year (2027) [Elect"}
+
+id: 65
+data: {"id": 65, "type": "delta", "at": 1792301185.842283, "agent": "researcher", "step": 1, "text": "rek, Sept 2026]\n- **Target Year:** 2"}
+
+id: 66
+data: {"id": 66, "type": "delta", "at": 1792301186.0167599, "agent": "researcher", "step": 1, "text": "027\n- **Status Note:** Mentioned as conducting tests but no specific model"}
+
+id: 67
+data: {"id": 67, "type": "delta", "at": 1792301186.1698575, "agent": "researcher", "step": 1, "text": " announced\n\n---\n\n#### **Volkswagen Group (with QuantumScape"}
+
+id: 68
+data: {"id": 68, "type": "delta", "at": 1792301186.3478024, "agent": "researcher", "step": 1, "text": " partner)**\n- **Announcement:** VW Group"}
+
+id: 69
+data: {"id": 69, "type": "delta", "at": 1792301186.5019803, "agent": "researcher", "step": 1, "text": " vehicles (VW, Audi, Porsche)"}
+
+id: 70
+data: {"id": 70, "type": "delta", "at": 1792301186.672047, "agent": "researcher", "step": 1, "text": " using QuantumScape solid-state batteries [Technoolab]"}
+
+id: 71
+data: {"id": 71, "type": "delta", "at": 1792301186.914271, "agent": "researcher", "step": 1, "text": "\n- **QuantumScape Target:** Mass"}
+
+id: 72
+data: {"id": 72, "type": "delta", "at": 1792301187.064746, "agent": "researcher", "step": 1, "text": " production target 2027–28; achieved 844 "}
+
+id: 73
+data: {"id": 73, "type": "delta", "at": 1792301187.2157915, "agent": "researcher", "step": 1, "text": "Wh/L energy density and 10–80% charge in 12.2 minutes in"}
+
+id: 74
+data: {"id": 74, "type": "delta", "at": 1792301187.3670673, "agent": "researcher", "step": 1, "text": " B-sample cells [Live in the Future"}
+
+id: 75
+data: {"id": 75, "type": "delta", "at": 1792301187.5689833, "agent": "researcher", "step": 1, "text": "]\n- **Status:** Cobra"}
+
+id: 76
+data: {"id": 76, "type": "delta", "at": 1792301187.744407, "agent": "researcher", "step": 1, "text": "-based QSE-5"}
+
+id: 77
+data: {"id": 77, "type": "delta", "at": 1792301187.9195156, "agent": "researcher", "step": 1, "text": " cells shipped to Volkswagen Group in 2025; September"}
+
+id: 78
+data: {"id": 78, "type": "delta", "at": 1792301188.070085, "agent": "researcher", "step": 1, "text": " 2025 debut of Ducati V21"}
+
+id: 79
+data: {"id": 79, "type": "delta", "at": 1792301188.220728, "agent": "researcher", "step": 1, "text": "L race bike powered by QSE-5 cells ("}
+
+id: 80
+data: {"id": 80, "type": "delta", "at": 1792301188.3711557, "agent": "researcher", "step": 1, "text": "world debut of solid-state lithium-metal"}
+
+id: 81
+data: {"id": 81, "type": "delta", "at": 1792301188.5219488, "agent": "researcher", "step": 1, "text": " battery in a real-world EV) ["}
+
+id: 82
+data: {"id": 82, "type": "delta", "at": 1792301188.6731868, "agent": "researcher", "step": 1, "text": "SEC 8-K,"}
+
+id: 83
+data: {"id": 83, "type": "delta", "at": 1792301188.8233635, "agent": "researcher", "step": 1, "text": " Feb 2026]\n\n---\n\n#### **Stellantis**\n- **Announcement"}
+
+id: 84
+data: {"id": 84, "type": "delta", "at": 1792301188.9737551, "agent": "researcher", "step": 1, "text": ":** Stellantis aiming to"}
+
+id: 85
+data: {"id": 85, "type": "delta", "at": 1792301189.1272779, "agent": "researcher", "step": 1, "text": " launch solid-state batteries next year (2027) [Electrek, Sept 2"}
+
+id: 86
+data: {"id": 86, "type": "delta", "at": 1792301189.3013325, "agent": "researcher", "step": 1, "text": "026]\n- **Target Year:** 2027\n- **Partner:** Samsung SDI; "}
+
+id: 87
+data: {"id": 87, "type": "delta", "at": 1792301189.4777718, "agent": "researcher", "step": 1, "text": "Gen 5 solid-state cells expected in production vehicles from Stellantis ("}
+
+id: 88
+data: {"id": 88, "type": "delta", "at": 1792301189.6527836, "agent": "researcher", "step": 1, "text": "Jeep, Chrysler, Peugeot) between 2026 and 2"}
+
+id: 89
+data: {"id": 89, "type": "delta", "at": 1792301189.8032336, "agent": "researcher", "step": 1, "text": "028 [Technoolab]\n\n---\n\n#### **General"}
+
+id: 90
+data: {"id": 90, "type": "delta", "at": 1792301189.9789941, "agent": "researcher", "step": 1, "text": " Motors (GM)**\n- **Announcement:** Samsung"}
+
+id: 91
+data: {"id": 91, "type": "delta", "at": 1792301190.12975, "agent": "researcher", "step": 1, "text": " SDI's Gen 5 solid-state cells expected in production vehicles from General Motors between 2"}
+
+id: 92
+data: {"id": 92, "type": "delta", "at": 1792301190.2808683, "agent": "researcher", "step": 1, "text": "026 and 2028 [Technoolab]\n- **Target Year:**"}
+
+id: 93
+data: {"id": 93, "type": "delta", "at": 1792301190.4552548, "agent": "researcher", "step": 1, "text": " 2026–2028 (via Samsung SDI partnership)\n\n---\n\n#### **Honda"}
+
+id: 94
+data: {"id": 94, "type": "delta", "at": 1792301190.656986, "agent": "researcher", "step": 1, "text": "**\n- **Announcement:** Honda and"}
+
+id: 95
+data: {"id": 95, "type": "delta", "at": 1792301190.8070889, "agent": "researcher", "step": 1, "text": " QuantumScape announced a new partnership to commercialize solid-state"}
+
+id: 96
+data: {"id": 96, "type": "delta", "at": 1792301190.9825263, "agent": "researcher", "step": 1, "text": " batteries for EVs (announced June 18, 2026"}
+
+id: 97
+data: {"id": 97, "type": "delta", "at": 1792301191.1331863, "agent": "researcher", "step": 1, "text": ") [Electrek]\n- **Target Year:** Not"}
+
+id: 98
+data: {"id": 98, "type": "delta", "at": 1792301191.3078077, "agent": "researcher", "step": 1, "text": " explicitly stated; likely 2027–2028 aligned with Quantum"}
+
+id: 99
+data: {"id": 99, "type": "delta", "at": 1792301191.45872, "agent": "researcher", "step": 1, "text": "Scape roadmap\n\n---\n\n### **CHINESE AUTOMAKERS**"}
+
+id: 100
+data: {"id": 100, "type": "delta", "at": 1792301191.635556, "agent": "researcher", "step": 1, "text": "\n\n#### **BYD**\n- **Announcement:** BYD"}
+
+id: 101
+data: {"id": 101, "type": "delta", "at": 1792301191.785555, "agent": "researcher", "step": 1, "text": " claims leading position, plans to introduce first E"}
+
+id: 102
+data: {"id": 102, "type": "delta", "at": 1792301191.9361196, "agent": "researcher", "step": 1, "text": "V equipped with solid-state batteries in 2027 ["}
+
+id: 103
+data: {"id": 103, "type": "delta", "at": 1792301192.0865123, "agent": "researcher", "step": 1, "text": "Electrek, Sept 14, 2026]\n- **Target Year:** "}
+
+id: 104
+data: {"id": 104, "type": "delta", "at": 1792301192.2616491, "agent": "researcher", "step": 1, "text": "2027 (demonstration/small-batch); "}
+
+id: 105
+data: {"id": 105, "type": "delta", "at": 1792301192.4118345, "agent": "researcher", "step": 1, "text": "One model using"}
+
+id: 106
+data: {"id": 106, "type": "delta", "at": 1792301192.5867295, "agent": "researcher", "step": 1, "text": " solid-state technology in 2027; small-batch trials of roughly 1,000"}
+
+id: 107
+data: {"id": 107, "type": "delta", "at": 1792301192.7372339, "agent": "researcher", "step": 1, "text": " vehicles around 2027, with large-scale commercial production near"}
+
+id: 108
+data: {"id": 108, "type": "delta", "at": 1792301192.8875043, "agent": "researcher", "step": 1, "text": " 2030 [TheStreet]\n- **Details"}
+
+id: 109
+data: {"id": 109, "type": "delta", "at": 1792301193.0385861, "agent": "researcher", "step": 1, "text": ":** Solid-state batteries"}
+
+id: 110
+data: {"id": 110, "type": "delta", "at": 1792301193.1893992, "agent": "researcher", "step": 1, "text": " mainly used in high-end models (Denza, Yang"}
+
+id: 111
+data: {"id": 111, "type": "delta", "at": 1792301193.3643808, "agent": "researcher", "step": 1, "text": "wang) [Dataconomy]\n\n---"}
+
+id: 112
+data: {"id": 112, "type": "delta", "at": 1792301193.5908256, "agent": "researcher", "step": 1, "text": "\n\n#### **Chery**\n- **Announcement:** Chery"}
+
+id: 113
+data: {"id": 113, "type": "delta", "at": 1792301193.7409527, "agent": "researcher", "step": 1, "text": " plans to introduce vehicles with solid-state batteries in stages; mass"}
+
+id: 114
+data: {"id": 114, "type": "delta", "at": 1792301193.9150515, "agent": "researcher", "step": 1, "text": " production set to begin in 2027 [Electrive,"}
+
+id: 115
+data: {"id": 115, "type": "delta", "at": 1792301194.0662584, "agent": "researcher", "step": 1, "text": " Jan 2026]\n- **Target Year:** 2027\n\n---\n\n#### **"}
+
+id: 116
+data: {"id": 116, "type": "delta", "at": 1792301194.240978, "agent": "researcher", "step": 1, "text": "NIO**\n- **Status (Semi-Solid Only"}
+
+id: 117
+data: {"id": 117, "type": "delta", "at": 1792301194.4164467, "agent": "researcher", "step": 1, "text": "):** NIO already"}
+
+id: 118
+data: {"id": 118, "type": "delta", "at": 1792301194.5668008, "agent": "researcher", "step": 1, "text": " sells a 150 kWh semi-solid ("}
+
+id: 119
+data: {"id": 119, "type": "delta", "at": 1792301194.7172015, "agent": "researcher", "step": 1, "text": "not full solid-state) pack using W"}
+
+id: 120
+data: {"id": 120, "type": "delta", "at": 1792301194.8672945, "agent": "researcher", "step": 1, "text": "eLion semi-solid cell, giving"}
+
+id: 121
+data: {"id": 121, "type": "delta", "at": 1792301195.0189352, "agent": "researcher", "step": 1, "text": " ~577 miles of range ["}
+
+id: 122
+data: {"id": 122, "type": "delta", "at": 1792301195.193362, "agent": "researcher", "step": 1, "text": "Bonnen Batteries]\n- **Note:** N"}
+
+id: 123
+data: {"id": 123, "type": "delta", "at": 1792301195.3690143, "agent": "researcher", "step": 1, "text": "IO currently shipping semi-solid only, not full solid-state\n\n---\n\n####"}
+
+id: 124
+data: {"id": 124, "type": "delta", "at": 1792301195.543902, "agent": "researcher", "step": 1, "text": " **SAIC, Geely**\n- **Status:**"}
+
+id: 125
+data: {"id": 125, "type": "delta", "at": 1792301195.6945817, "agent": "researcher", "step": 1, "text": " Geely targeting 2027 "}
+
+id: 126
+data: {"id": 126, "type": "delta", "at": 1792301195.8446045, "agent": "researcher", "step": 1, "text": "for solid-state battery launch [Electrek, citing comment"}
+
+id: 127
+data: {"id": 127, "type": "delta", "at": 1792301195.9953592, "agent": "researcher", "step": 1, "text": "]\n- **Note:** Limited detail available on SAIC's specific"}
+
+id: 128
+data: {"id": 128, "type": "delta", "at": 1792301196.1460903, "agent": "researcher", "step": 1, "text": " timeline\n\n---\n\n### **BATTERY SUPPLIERS & PARTNERSHIPS"}
+
+id: 129
+data: {"id": 129, "type": "delta", "at": 1792301196.2131305, "agent": "researcher", "step": 1, "text": "**\n\n#### **Samsung SDI**\n- **Target:** Targeting"}
+
+id: 130
+data: {"id": 130, "type": "delta", "at": 1792301196.3865814, "agent": "researcher", "step": 1, "text": " all-solid-state mass production in 2027 [The"}
+
+id: 131
+data: {"id": 131, "type": "delta", "at": 1792301196.5377247, "agent": "researcher", "step": 1, "text": "Street]\n- **Status:** Circ"}
+
+id: 132
+data: {"id": 132, "type": "delta", "at": 1792301196.7377617, "agent": "researcher", "step": 1, "text": "ulating roadmaps since 2023 showing 2025 samples and 2027 mass production [Live"}
+
+id: 133
+data: {"id": 133, "type": "delta", "at": 1792301196.9133883, "agent": "researcher", "step": 1, "text": " in the Future]\n\n---\n\n#### **QuantumScape (Volkswagen partner"}
+
+id: 134
+data: {"id": 134, "type": "delta", "at": 1792301197.0903742, "agent": "researcher", "step": 1, "text": ")**\n- **Status:** Installed"}
+
+id: 135
+data: {"id": 135, "type": "delta", "at": 1792301197.2416887, "agent": "researcher", "step": 1, "text": " pilot cell production line (Eagle Line) in "}
+
+id: 136
+data: {"id": 136, "type": "delta", "at": 1792301197.3935795, "agent": "researcher", "step": 1, "text": "2025; held inauguration event February 4, 2026"}
+
+id: 137
+data: {"id": 137, "type": "delta", "at": 1792301197.5468369, "agent": "researcher", "step": 1, "text": " [SEC 8-K]\n- **2026"}
+
+id: 138
+data: {"id": 138, "type": "delta", "at": 1792301197.699691, "agent": "researcher", "step": 1, "text": " Focus:** Core activity"}
+
+id: 139
+data: {"id": 139, "type": "delta", "at": 1792301197.8519187, "agent": "researcher", "step": 1, "text": " is to demonstrate scalable production using"}
+
+id: 140
+data: {"id": 140, "type": "delta", "at": 1792301198.0048368, "agent": "researcher", "step": 1, "text": " Eagle Line [SEC 8-K]\n- **Mass"}
+
+id: 141
+data: {"id": 141, "type": "delta", "at": 1792301198.1576715, "agent": "researcher", "step": 1, "text": " Production Target:** 2027–2028\n\n---\n\n### **KEY"}
+
+id: 142
+data: {"id": 142, "type": "delta", "at": 1792301198.3091006, "agent": "researcher", "step": 1, "text": " UNCERTAINTIES & CAVEATS**\n\n- **No"}
+
+id: 143
+data: {"id": 143, "type": "delta", "at": 1792301198.4608989, "agent": "researcher", "step": 1, "text": " All-Solid-State EVs in Customer Vehicles ("}
+
+id: 144
+data: {"id": 144, "type": "delta", "at": 1792301198.691299, "agent": "researcher", "step": 1, "text": "As of Oct 2026):** Seven companies have spent"}
+
+id: 145
+data: {"id": 145, "type": "delta", "at": 1792301198.842386, "agent": "researcher", "step": 1, "text": " over $10 billion developing solid-state batteries; zero all-solid-state cells sit in a"}
+
+id: 146
+data: {"id": 146, "type": "delta", "at": 1792301198.994998, "agent": "researcher", "step": 1, "text": " customer vehicle [Live in the Future]\n\n- **Timeline Delays"}
+
+id: 147
+data: {"id": 147, "type": "delta", "at": 1792301199.1485589, "agent": "researcher", "step": 1, "text": " Common:** Toyota"}
+
+id: 148
+data: {"id": 148, "type": "delta", "at": 1792301199.2994504, "agent": "researcher", "step": 1, "text": " told reporters in 2020 it would have solid-state batteries"}
+
+id: 149
+data: {"id": 149, "type": "delta", "at": 1792301199.4506931, "agent": "researcher", "step": 1, "text": " in vehicles by 2025; QuantumScape went public via SPAC at $24"}
+
+id: 150
+data: {"id": 150, "type": "delta", "at": 1792301199.6077988, "agent": "researcher", "step": 1, "text": " billion valuation on promise of production by 2024 [Live"}
+
+id: 151
+data: {"id": 151, "type": "delta", "at": 1792301199.7798507, "agent": "researcher", "step": 1, "text": " in the Future]\n\n- **Semi-Solid vs. All-Solid Distinction:** "}
+
+id: 152
+data: {"id": 152, "type": "delta", "at": 1792301199.9319394, "agent": "researcher", "step": 1, "text": "Semi-solid batteries ("}
+
+id: 153
+data: {"id": 153, "type": "delta", "at": 1792301200.083956, "agent": "researcher", "step": 1, "text": "partially solid electrolytes) already in some"}
+
+id: 154
+data: {"id": 154, "type": "delta", "at": 1792301200.2357304, "agent": "researcher", "step": 1, "text": " production cars (e.g., NIO's swap"}
+
+id: 155
+data: {"id": 155, "type": "delta", "at": 1792301200.3926034, "agent": "researcher", "step": 1, "text": "-pack); fully solid packs at scale still a"}
+
+id: 156
+data: {"id": 156, "type": "delta", "at": 1792301200.5643952, "agent": "researcher", "step": 1, "text": " few years away [Bonnen Batteries]\n\n- **Mass Production Later"}
+
+id: 157
+data: {"id": 157, "type": "delta", "at": 1792301200.71622, "agent": "researcher", "step": 1, "text": ":** Although battery"}
+
+id: 158
+data: {"id": 158, "type": "delta", "at": 1792301200.868307, "agent": "researcher", "step": 1, "text": " tech will begin rolling out as soon"}
+
+id: 159
+data: {"id": 159, "type": "delta", "at": 1792301201.0205934, "agent": "researcher", "step": 1, "text": " as 2027, commercialization not expected until closer to 2029 "}
+
+id: 160
+data: {"id": 160, "type": "delta", "at": 1792301201.1710258, "agent": "researcher", "step": 1, "text": "or 2030 [Electrek]\n\n---\n\n**Sources"}
+
+id: 161
+data: {"id": 161, "type": "delta", "at": 1792301201.323265, "agent": "researcher", "step": 1, "text": " checked:** Web searches conducted; most"}
+
+id: 162
+data: {"id": 162, "type": "delta", "at": 1792301201.4738698, "agent": "researcher", "step": 1, "text": " recent announcements dated September–October 2026."}
+
+id: 163
+data: {"id": 163, "type": "usage", "at": 1792301201.521868, "agent": "researcher", "cost_usd": 0.073079}
+
+id: 164
+data: {"id": 164, "type": "agent_finished", "at": 1792301201.5222769, "agent": "researcher", "step": 1, "status": "completed", "result": "I'll search for the most recent information on carmakers' solid-state battery vehicle announcements as of October 2026.\n\n## RESEARCH NOTES: Carmakers with Announced Solid-State Battery EV Plans (October 2026)\n\n---\n\n### **MAJOR CARMAKERS - TARGET YEARS 2027–2028**\n\n#### **Toyota**\n- **Announcement:** Joint venture announced October 8, 2026 with Sumitomo Metal Mining to mass-produce cathode materials; plans to launch EV line with solid-state batteries in 2027 or 2028 [1] [LiveScience]\n- **Target Year:** 2027–2028\n- **Technical Details:** Expected range ~460 miles, 10-minute 10–80% charge capability [2] [Auto Edge View]\n- **Status Note:** Despite claims Toyota has already launched a solid-state EV, the company's official roadmap places the first commercial model in the 2027–2028 timeframe [3] [EVWorld]\n\n---\n\n#### **Nissan**\n- **Announcement:** Semi-solid battery versions of the Ariya and potentially a new Leaf successor are targeted for 2026; true solid-state Nissan vehicles are planned for 2028 [4] [Technoolab]\n- **Target Year:** 2028 (full solid-state)\n- **Status:** Pilot production line for solid-state cells at Yokohama plant, targeting 2028 for production vehicle introduction [2] [Auto Edge View]\n\n---\n\n#### **BMW**\n- **Announcement:** Samsung SDI's Gen 5 solid-state cells expected in production vehicles from BMW between 2026 and 2028; BMW intends to demonstrate a solid-state battery vehicle in 2025 and have it in limited production by 2027, using Samsung SDI cells [4] [Technoolab]\n- **Target Year:** 2027 (limited production)\n- **Status:** BMW began testing all-solid-state cells from Solid Power inside a BMW i7 development vehicle [5] [Intelligent Living]\n\n---\n\n#### **Mercedes-Benz**\n- **Announcement:** Mercedes-Benz aiming to launch solid-state batteries next year (2027) [6] [Electrek, Sept 2026]\n- **Target Year:** 2027\n- **Status Note:** Mentioned as conducting tests but no specific model announced\n\n---\n\n#### **Volkswagen Group (with QuantumScape partner)**\n- **Announcement:** VW Group vehicles (VW, Audi, Porsche) using QuantumScape solid-state batteries [4] [Technoolab]\n- **QuantumScape Target:** Mass production target 2027–28; achieved 844 Wh/L energy density and 10–80% charge in 12.2 minutes in B-sample cells [7] [Live in the Future]\n- **Status:** Cobra-based QSE-5 cells shipped to Volkswagen Group in 2025; September 2025 debut of Ducati V21L race bike powered by QSE-5 cells (world debut of solid-state lithium-metal battery in a real-world EV) [8] [SEC 8-K, Feb 2026]\n\n---\n\n#### **Stellantis**\n- **Announcement:** Stellantis aiming to launch solid-state batteries next year (2027) [6] [Electrek, Sept 2026]\n- **Target Year:** 2027\n- **Partner:** Samsung SDI; Gen 5 solid-state cells expected in production vehicles from Stellantis (Jeep, Chrysler, Peugeot) between 2026 and 2028 [4] [Technoolab]\n\n---\n\n#### **General Motors (GM)**\n- **Announcement:** Samsung SDI's Gen 5 solid-state cells expected in production vehicles from General Motors between 2026 and 2028 [4] [Technoolab]\n- **Target Year:** 2026–2028 (via Samsung SDI partnership)\n\n---\n\n#### **Honda**\n- **Announcement:** Honda and QuantumScape announced a new partnership to commercialize solid-state batteries for EVs (announced June 18, 2026) [9] [Electrek]\n- **Target Year:** Not explicitly stated; likely 2027–2028 aligned with QuantumScape roadmap\n\n---\n\n### **CHINESE AUTOMAKERS**\n\n#### **BYD**\n- **Announcement:** BYD claims leading position, plans to introduce first EV equipped with solid-state batteries in 2027 [6] [Electrek, Sept 14, 2026]\n- **Target Year:** 2027 (demonstration/small-batch); One model using solid-state technology in 2027; small-batch trials of roughly 1,000 vehicles around 2027, with large-scale commercial production near 2030 [10] [TheStreet]\n- **Details:** Solid-state batteries mainly used in high-end models (Denza, Yangwang) [11] [Dataconomy]\n\n---\n\n#### **Chery**\n- **Announcement:** Chery plans to introduce vehicles with solid-state batteries in stages; mass production set to begin in 2027 [12] [Electrive, Jan 2026]\n- **Target Year:** 2027\n\n---\n\n#### **NIO**\n- **Status (Semi-Solid Only):** NIO already sells a 150 kWh semi-solid (not full solid-state) pack using WeLion semi-solid cell, giving ~577 miles of range [13] [Bonnen Batteries]\n- **Note:** NIO currently shipping semi-solid only, not full solid-state\n\n---\n\n#### **SAIC, Geely**\n- **Status:** Geely targeting 2027 for solid-state battery launch [6] [Electrek, citing comment]\n- **Note:** Limited detail available on SAIC's specific timeline\n\n---\n\n### **BATTERY SUPPLIERS & PARTNERSHIPS**\n\n#### **Samsung SDI**\n- **Target:** Targeting all-solid-state mass production in 2027 [10] [TheStreet]\n- **Status:** Circulating roadmaps since 2023 showing 2025 samples and 2027 mass production [7] [Live in the Future]\n\n---\n\n#### **QuantumScape (Volkswagen partner)**\n- **Status:** Installed pilot cell production line (Eagle Line) in 2025; held inauguration event February 4, 2026 [8] [SEC 8-K]\n- **2026 Focus:** Core activity is to demonstrate scalable production using Eagle Line [8] [SEC 8-K]\n- **Mass Production Target:** 2027–2028\n\n---\n\n### **KEY UNCERTAINTIES & CAVEATS**\n\n- **No All-Solid-State EVs in Customer Vehicles (As of Oct 2026):** Seven companies have spent over $10 billion developing solid-state batteries; zero all-solid-state cells sit in a customer vehicle [7] [Live in the Future]\n\n- **Timeline Delays Common:** Toyota told reporters in 2020 it would have solid-state batteries in vehicles by 2025; QuantumScape went public via SPAC at $24 billion valuation on promise of production by 2024 [7] [Live in the Future]\n\n- **Semi-Solid vs. All-Solid Distinction:** Semi-solid batteries (partially solid electrolytes) already in some production cars (e.g., NIO's swap-pack); fully solid packs at scale still a few years away [13] [Bonnen Batteries]\n\n- **Mass Production Later:** Although battery tech will begin rolling out as soon as 2027, commercialization not expected until closer to 2029 or 2030 [6] [Electrek]\n\n---\n\n**Sources checked:** Web searches conducted; most recent announcements dated September–October 2026.\n\nSources:\n- [1] Toyota to launch world's first EV with a solid-state battery by 2027 — they're expected to last longer and charge faster — https://www.livescience.com/technology/electric-vehicles/toyota-to-launch-worlds-first-ev-with-a-solid-state-battery-by-2027-theyre-expected-to-last-longer-and-charge-faster\n- [2] Solid-State Battery Commercialization Timeline 2026: When Will It Replace NMC and LFP? — https://autoedgeview.com/battery-guides/solid-state-battery-commercialization-timeline-2026\n- [3] EVWORLD.COM - Toyota's Solid-State Battery Roadmap: Reality vs. Rumor — https://www.evworld.com/article.php?id=717&slug=toyotas-solid-state-battery-roadmap-reality-vs-rumor\n- [4] Solid-State Battery Cars 2026: Which EVs Are Getting It First? — https://www.technoolab.com/2026/05/solid-state-battery-cars-2026-which-evs.html\n- [5] Solid-State Battery Scoreboard 2025–2026: Who Shipped, Who Tested, and Who is Scaling Next — https://www.intelligentliving.co/solid-state-battery-scoreboard-2025-2026/\n- [6] BYD 'leading' solid-state battery race with its first EV due in 2027 — https://electrek.co/2026/09/14/byd-leading-solid-state-battery-race-first-ev-2027/\n- [7] $10 Billion, 7 Companies, 0 All-Solid Cells in Customer Cars: The 2026 Battery Scorecard — Live in the Future — https://liveinthefuture.org/stories/solid-state-battery-scorecard-2026\n- [8] QuantumScape Corp - Form 8-K - FY2026 — https://www.sec.gov/Archives/edgar/data/1811414/000119312526046623/qs-ex99_1.htm\n- [9] Solid-state batteries — https://electrek.co/guides/solid-state-batteries/\n- [10] BYD solid-state batteries: 2027 EV debut and what it means - TheStreet — https://www.thestreet.com/automotive/byd-solid-state-battery-2027\n- [11] BYD Says First Solid-state Battery Car Will Launch In 2027 - Dataconomy — https://dataconomy.com/2026/09/28/byd-solid-state-battery-car-launch-2027/\n- [12] Chery to launch first electric vehicle with solid-state battery - electrive.com — https://www.electrive.com/2026/01/19/chery-to-launch-first-electric-vehicle-with-solid-state-battery/\n- [13] Solid-State Batteries 2026: Advances, Challenges & Applications — https://www.bonnenbatteries.com/solid-state-batteries-advances-challenges-future-use-cases/", "sources": [{"url": "https://www.livescience.com/technology/electric-vehicles/toyota-to-launch-worlds-first-ev-with-a-solid-state-battery-by-2027-theyre-expected-to-last-longer-and-charge-faster", "title": "Toyota to launch world's first EV with a solid-state battery by 2027 — they're expected to last longer and charge faster"}, {"url": "https://autoedgeview.com/battery-guides/solid-state-battery-commercialization-timeline-2026", "title": "Solid-State Battery Commercialization Timeline 2026: When Will It Replace NMC and LFP?"}, {"url": "https://www.evworld.com/article.php?id=717&slug=toyotas-solid-state-battery-roadmap-reality-vs-rumor", "title": "EVWORLD.COM - Toyota's Solid-State Battery Roadmap: Reality vs. Rumor"}, {"url": "https://www.technoolab.com/2026/05/solid-state-battery-cars-2026-which-evs.html", "title": "Solid-State Battery Cars 2026: Which EVs Are Getting It First?"}, {"url": "https://www.intelligentliving.co/solid-state-battery-scoreboard-2025-2026/", "title": "Solid-State Battery Scoreboard 2025–2026: Who Shipped, Who Tested, and Who is Scaling Next"}, {"url": "https://electrek.co/2026/09/14/byd-leading-solid-state-battery-race-first-ev-2027/", "title": "BYD 'leading' solid-state battery race with its first EV due in 2027"}, {"url": "https://liveinthefuture.org/stories/solid-state-battery-scorecard-2026", "title": "$10 Billion, 7 Companies, 0 All-Solid Cells in Customer Cars: The 2026 Battery Scorecard — Live in the Future"}, {"url": "https://www.sec.gov/Archives/edgar/data/1811414/000119312526046623/qs-ex99_1.htm", "title": "QuantumScape Corp - Form 8-K - FY2026"}, {"url": "https://electrek.co/guides/solid-state-batteries/", "title": "Solid-state batteries"}, {"url": "https://www.thestreet.com/automotive/byd-solid-state-battery-2027", "title": "BYD solid-state batteries: 2027 EV debut and what it means - TheStreet"}, {"url": "https://dataconomy.com/2026/09/28/byd-solid-state-battery-car-launch-2027/", "title": "BYD Says First Solid-state Battery Car Will Launch In 2027 - Dataconomy"}, {"url": "https://www.electrive.com/2026/01/19/chery-to-launch-first-electric-vehicle-with-solid-state-battery/", "title": "Chery to launch first electric vehicle with solid-state battery - electrive.com"}, {"url": "https://www.bonnenbatteries.com/solid-state-batteries-advances-challenges-future-use-cases/", "title": "Solid-State Batteries 2026: Advances, Challenges & Applications"}], "note": null}
+
+id: 165
+data: {"id": 165, "type": "agent_started", "at": 1792301201.5222816, "agent": "supervisor", "iteration": 2, "forced": false}
+
+id: 166
+data: {"id": 166, "type": "delta", "at": 1792301202.4881902, "agent": "supervisor", "step": null, "text": "REASON: The research is"}
+
+id: 167
+data: {"id": 167, "type": "delta", "at": 1792301202.7754407, "agent": "supervisor", "step": null, "text": " comprehensive and detailed enough to direct"}
+
+id: 168
+data: {"id": 168, "type": "delta", "at": 1792301202.9361868, "agent": "supervisor", "step": null, "text": "ly compile into a final answer without needing further drafting or review for"}
+
+id: 169
+data: {"id": 169, "type": "delta", "at": 1792301203.0958853, "agent": "supervisor", "step": null, "text": " this factual listing task.\nFINAL:\n#"}
+
+id: 170
+data: {"id": 170, "type": "delta", "at": 1792301203.2587447, "agent": "supervisor", "step": null, "text": " Carmakers Announcing Solid-State Battery"}
+
+id: 171
+data: {"id": 171, "type": "delta", "at": 1792301203.4570518, "agent": "supervisor", "step": null, "text": " Cars — By Target Year\n\nAs of October 2026, no"}
+
+id: 172
+data: {"id": 172, "type": "delta", "at": 1792301203.6099293, "agent": "supervisor", "step": null, "text": " fully solid-state EV is yet in"}
+
+id: 173
+data: {"id": 173, "type": "delta", "at": 1792301203.7631333, "agent": "supervisor", "step": null, "text": " customers' hands, but numerous carmakers have announced"}
+
+id: 174
+data: {"id": 174, "type": "delta", "at": 1792301203.9570196, "agent": "supervisor", "step": null, "text": " timelines for launch"}
+
+id: 175
+data: {"id": 175, "type": "delta", "at": 1792301204.110768, "agent": "supervisor", "step": null, "text": " or mass production. Here's a breakdown by company"}
+
+id: 176
+data: {"id": 176, "type": "delta", "at": 1792301204.261947, "agent": "supervisor", "step": null, "text": ":\n\n## 2026–2027\n\n-"}
+
+id: 177
+data: {"id": 177, "type": "delta", "at": 1792301204.4148796, "agent": "supervisor", "step": null, "text": " **General Motors (GM):** Via its partnership with"}
+
+id: 178
+data: {"id": 178, "type": "delta", "at": 1792301204.5665677, "agent": "supervisor", "step": null, "text": " Samsung SDI, expected to receive G"}
+
+id: 179
+data: {"id": 179, "type": "delta", "at": 1792301204.7202942, "agent": "supervisor", "step": null, "text": "en 5 solid-state cells for production vehicles between 2"}
+
+id: 180
+data: {"id": 180, "type": "delta", "at": 1792301204.8706431, "agent": "supervisor", "step": null, "text": "026 and 2028 [4]."}
+
+id: 181
+data: {"id": 181, "type": "delta", "at": 1792301205.0240223, "agent": "supervisor", "step": null, "text": "\n\n## 2027\n\n- **Mercedes-Benz:** A"}
+
+id: 182
+data: {"id": 182, "type": "delta", "at": 1792301205.1776726, "agent": "supervisor", "step": null, "text": "iming to launch solid-state batteries in 2027 [6]."}
+
+id: 183
+data: {"id": 183, "type": "delta", "at": 1792301205.3310149, "agent": "supervisor", "step": null, "text": "\n- **Stellantis** (Jeep, Chrysler, Peuge"}
+
+id: 184
+data: {"id": 184, "type": "delta", "at": 1792301205.4814615, "agent": "supervisor", "step": null, "text": "ot): Also targeting 2027 for laun"}
+
+id: 185
+data: {"id": 185, "type": "delta", "at": 1792301205.634826, "agent": "supervisor", "step": null, "text": "ch, using Samsung SDI's Gen 5 solid"}
+
+id: 186
+data: {"id": 186, "type": "delta", "at": 1792301205.7862794, "agent": "supervisor", "step": null, "text": "-state cells [6][4].\n- **BMW:** Pl"}
+
+id: 187
+data: {"id": 187, "type": "delta", "at": 1792301205.9887311, "agent": "supervisor", "step": null, "text": "ans limited production by 2027 using Samsung SDI"}
+
+id: 188
+data: {"id": 188, "type": "delta", "at": 1792301206.1452303, "agent": "supervisor", "step": null, "text": " cells, after demonstrating a solid-state batt"}
+
+id: 189
+data: {"id": 189, "type": "delta", "at": 1792301206.2372398, "agent": "supervisor", "step": null, "text": "ery vehicle in 2025. It has"}
+
+id: 190
+data: {"id": 190, "type": "delta", "at": 1792301206.4369102, "agent": "supervisor", "step": null, "text": " also tested Solid Power's all-solid-state cells in"}
+
+id: 191
+data: {"id": 191, "type": "delta", "at": 1792301206.588222, "agent": "supervisor", "step": null, "text": " a BMW i7 development vehicle [4][5].\n- **BY"}
+
+id: 192
+data: {"id": 192, "type": "delta", "at": 1792301206.7429712, "agent": "supervisor", "step": null, "text": "D:** Plans to introduce its first EV with solid-state batteries in"}
+
+id: 193
+data: {"id": 193, "type": "delta", "at": 1792301206.910966, "agent": "supervisor", "step": null, "text": " 2027, starting with small-batch trials (~1,000 veh"}
+
+id: 194
+data: {"id": 194, "type": "delta", "at": 1792301207.093566, "agent": "supervisor", "step": null, "text": "icles) in high-end models like Denza and Yangwang, with large-scale production"}
+
+id: 195
+data: {"id": 195, "type": "delta", "at": 1792301207.2451112, "agent": "supervisor", "step": null, "text": " expected closer to 2030 [6"}
+
+id: 196
+data: {"id": 196, "type": "delta", "at": 1792301207.3987303, "agent": "supervisor", "step": null, "text": "][10][11].\n- **Chery:** Plans to introduce sol"}
+
+id: 197
+data: {"id": 197, "type": "delta", "at": 1792301207.5522213, "agent": "supervisor", "step": null, "text": "id-state battery vehicles in stages, with mass production starting in 2"}
+
+id: 198
+data: {"id": 198, "type": "delta", "at": 1792301207.705921, "agent": "supervisor", "step": null, "text": "027 [12].\n- **Geely:** Also targeting 2027 for"}
+
+id: 199
+data: {"id": 199, "type": "delta", "at": 1792301207.859132, "agent": "supervisor", "step": null, "text": " a solid-state battery launch [6].\n- **Sam"}
+
+id: 200
+data: {"id": 200, "type": "delta", "at": 1792301208.0110154, "agent": "supervisor", "step": null, "text": "sung SDI** (battery supplier for several"}
+
+id: 201
+data: {"id": 201, "type": "delta", "at": 1792301208.1637871, "agent": "supervisor", "step": null, "text": " automakers): Targeting all-solid-state mass production in 2027 [10"}
+
+id: 202
+data: {"id": 202, "type": "delta", "at": 1792301208.3175738, "agent": "supervisor", "step": null, "text": "][7].\n- **Volkswagen Group** (VW, Audi,"}
+
+id: 203
+data: {"id": 203, "type": "delta", "at": 1792301208.4699302, "agent": "supervisor", "step": null, "text": " Porsche): Working with partner QuantumScape,"}
+
+id: 204
+data: {"id": 204, "type": "delta", "at": 1792301208.6211736, "agent": "supervisor", "step": null, "text": " which targets mass production of its solid-state cells for "}
+
+id: 205
+data: {"id": 205, "type": "delta", "at": 1792301208.7737024, "agent": "supervisor", "step": null, "text": "2027–2028. QuantumScape's cells already pow"}
+
+id: 206
+data: {"id": 206, "type": "delta", "at": 1792301208.9264753, "agent": "supervisor", "step": null, "text": "ered a Ducati race bike in a 2025 world debut [4"}
+
+id: 207
+data: {"id": 207, "type": "delta", "at": 1792301209.0802567, "agent": "supervisor", "step": null, "text": "][7][8].\n\n## 2027–2028\n\n- **Toyota:** Announ"}
+
+id: 208
+data: {"id": 208, "type": "delta", "at": 1792301209.2325354, "agent": "supervisor", "step": null, "text": "ced (October 8, 2026) a"}
+
+id: 209
+data: {"id": 209, "type": "delta", "at": 1792301209.383795, "agent": "supervisor", "step": null, "text": " joint venture with Sumitomo Metal Mining to mass-produce c"}
+
+id: 210
+data: {"id": 210, "type": "delta", "at": 1792301209.5362487, "agent": "supervisor", "step": null, "text": "athode materials, with plans to launch a solid-state EV line in"}
+
+id: 211
+data: {"id": 211, "type": "delta", "at": 1792301209.687626, "agent": "supervisor", "step": null, "text": " 2027 or 2028. Expected spec"}
+
+id: 212
+data: {"id": 212, "type": "delta", "at": 1792301209.839614, "agent": "supervisor", "step": null, "text": "s: ~460 miles of range and a 10-minute"}
+
+id: 213
+data: {"id": 213, "type": "delta", "at": 1792301209.991848, "agent": "supervisor", "step": null, "text": " 10–80% charge [1][2][3].\n- **"}
+
+id: 214
+data: {"id": 214, "type": "delta", "at": 1792301210.1441019, "agent": "supervisor", "step": null, "text": "Honda:** Partnered with QuantumScape (announ"}
+
+id: 215
+data: {"id": 215, "type": "delta", "at": 1792301210.296229, "agent": "supervisor", "step": null, "text": "ced June 2026) to commercialize solid-state batteries for E"}
+
+id: 216
+data: {"id": 216, "type": "delta", "at": 1792301210.4483356, "agent": "supervisor", "step": null, "text": "Vs, with a timeline likely aligned to"}
+
+id: 217
+data: {"id": 217, "type": "delta", "at": 1792301210.5991867, "agent": "supervisor", "step": null, "text": " QuantumScape's 2027–2028 roadmap,"}
+
+id: 218
+data: {"id": 218, "type": "delta", "at": 1792301210.7508755, "agent": "supervisor", "step": null, "text": " though no specific year has been confirmed [9].\n\n##"}
+
+id: 219
+data: {"id": 219, "type": "delta", "at": 1792301210.9033039, "agent": "supervisor", "step": null, "text": " 2028\n\n- **Nissan:** Targeting "}
+
+id: 220
+data: {"id": 220, "type": "delta", "at": 1792301211.054297, "agent": "supervisor", "step": null, "text": "2028 for its first vehicle with a"}
+
+id: 221
+data: {"id": 221, "type": "delta", "at": 1792301211.207583, "agent": "supervisor", "step": null, "text": " true (full) solid-state battery,"}
+
+id: 222
+data: {"id": 222, "type": "delta", "at": 1792301211.408103, "agent": "supervisor", "step": null, "text": " following a pilot production line at its Yokohama plant. ("}
+
+id: 223
+data: {"id": 223, "type": "delta", "at": 1792301211.5602305, "agent": "supervisor", "step": null, "text": "Nissan is also rolling out semi-solid-state batteries in"}
+
+id: 224
+data: {"id": 224, "type": "delta", "at": 1792301211.7107437, "agent": "supervisor", "step": null, "text": " the Ariya and a possible new Leaf successor as early"}
+
+id: 225
+data: {"id": 225, "type": "delta", "at": 1792301211.8625956, "agent": "supervisor", "step": null, "text": " as 2026, but these are not full solid-state."}
+
+id: 226
+data: {"id": 226, "type": "delta", "at": 1792301212.0138688, "agent": "supervisor", "step": null, "text": ") [4][2]\n\n## Already Selling Semi-"}
+
+id: 227
+data: {"id": 227, "type": "delta", "at": 1792301212.1650236, "agent": "supervisor", "step": null, "text": "Solid (Not Full Solid-State)\n\n- **NIO:** Curr"}
+
+id: 228
+data: {"id": 228, "type": "delta", "at": 1792301212.3167474, "agent": "supervisor", "step": null, "text": "ently sells a 150 kWh semi-solid-state battery p"}
+
+id: 229
+data: {"id": 229, "type": "delta", "at": 1792301212.4682243, "agent": "supervisor", "step": null, "text": "ack (using WeLion cells), offering around 577 miles of range —"}
+
+id: 230
+data: {"id": 230, "type": "delta", "at": 1792301212.6206102, "agent": "supervisor", "step": null, "text": " but this is a semi-solid, not a true"}
+
+id: 231
+data: {"id": 231, "type": "delta", "at": 1792301212.7712176, "agent": "supervisor", "step": null, "text": " solid-state battery [13].\n\n## Important Caveats\n\n-"}
+
+id: 232
+data: {"id": 232, "type": "delta", "at": 1792301212.9231687, "agent": "supervisor", "step": null, "text": " **No customer deliveries yet:** As"}
+
+id: 233
+data: {"id": 233, "type": "delta", "at": 1792301213.0743873, "agent": "supervisor", "step": null, "text": " of October 2026, despite more than $10 billion inv"}
+
+id: 234
+data: {"id": 234, "type": "delta", "at": 1792301213.224631, "agent": "supervisor", "step": null, "text": "ested industry-wide, no"}
+
+id: 235
+data: {"id": 235, "type": "delta", "at": 1792301213.3761475, "agent": "supervisor", "step": null, "text": " all-solid-state battery cells are yet in any"}
+
+id: 236
+data: {"id": 236, "type": "delta", "at": 1792301213.528004, "agent": "supervisor", "step": null, "text": " customer's vehicle [7].\n- **History of delays:**"}
+
+id: 237
+data: {"id": 237, "type": "delta", "at": 1792301213.6786067, "agent": "supervisor", "step": null, "text": " Timelines have slipped before — Toyota origin"}
+
+id: 238
+data: {"id": 238, "type": "delta", "at": 1792301213.8317294, "agent": "supervisor", "step": null, "text": "ally promised solid-state batteries in vehicles by 2025, and Quant"}
+
+id: 239
+data: {"id": 239, "type": "delta", "at": 1792301214.0316083, "agent": "supervisor", "step": null, "text": "umScape had initially targeted 2024 production [7]."}
+
+id: 240
+data: {"id": 240, "type": "delta", "at": 1792301214.183335, "agent": "supervisor", "step": null, "text": "\n- **Semi-solid vs. full solid-state:** Several \""}
+
+id: 241
+data: {"id": 241, "type": "delta", "at": 1792301214.3336701, "agent": "supervisor", "step": null, "text": "solid-state\" headlines actually refer to sem"}
+
+id: 242
+data: {"id": 242, "type": "delta", "at": 1792301214.4849718, "agent": "supervisor", "step": null, "text": "i-solid technology (partially li"}
+
+id: 243
+data: {"id": 243, "type": "delta", "at": 1792301214.6359744, "agent": "supervisor", "step": null, "text": "quid electrolyte), which is already on the road in c"}
+
+id: 244
+data: {"id": 244, "type": "delta", "at": 1792301214.83641, "agent": "supervisor", "step": null, "text": "ars like NIO's, while true all-solid-state bat"}
+
+id: 245
+data: {"id": 245, "type": "delta", "at": 1792301214.9870358, "agent": "supervisor", "step": null, "text": "teries remain a few years from scale production"}
+
+id: 246
+data: {"id": 246, "type": "delta", "at": 1792301215.138238, "agent": "supervisor", "step": null, "text": " [13].\n- **Mass-market"}
+
+id: 247
+data: {"id": 247, "type": "delta", "at": 1792301215.2882993, "agent": "supervisor", "step": null, "text": " scale still later"}
+
+id: 248
+data: {"id": 248, "type": "delta", "at": 1792301215.438897, "agent": "supervisor", "step": null, "text": ":** Even where 2027 launches are announ"}
+
+id: 249
+data: {"id": 249, "type": "delta", "at": 1792301215.5893931, "agent": "supervisor", "step": null, "text": "ced, these are often small-batch or lim"}
+
+id: 250
+data: {"id": 250, "type": "delta", "at": 1792301215.740616, "agent": "supervisor", "step": null, "text": "ited-production runs; broader commercial"}
+
+id: 251
+data: {"id": 251, "type": "delta", "at": 1792301215.8920972, "agent": "supervisor", "step": null, "text": "ization is generally expected closer to 2028"}
+
+id: 252
+data: {"id": 252, "type": "usage", "at": 1792301215.9864874, "agent": "supervisor", "cost_usd": 0.096297}
+
+id: 253
+data: {"id": 253, "type": "delta", "at": 1792301215.9865863, "agent": "supervisor", "step": null, "text": "–2030."}
+
+id: 254
+data: {"id": 254, "type": "decision", "at": 1792301215.9866102, "kind": "final", "iteration": 2, "reason": "The research is comprehensive and detailed enough to directly compile into a final answer without needing further drafting or review for this factual listing task.", "forced": false}
+
+id: 255
+data: {"id": 255, "type": "run_finished", "at": 1792301215.9872108, "status": "completed", "final": "# Carmakers Announcing Solid-State Battery Cars — By Target Year\n\nAs of October 2026, no fully solid-state EV is yet in customers' hands, but numerous carmakers have announced timelines for launch or mass production. Here's a breakdown by company:\n\n## 2026–2027\n\n- **General Motors (GM):** Via its partnership with Samsung SDI, expected to receive Gen 5 solid-state cells for production vehicles between 2026 and 2028 [1].\n\n## 2027\n\n- **Mercedes-Benz:** Aiming to launch solid-state batteries in 2027 [2].\n- **Stellantis** (Jeep, Chrysler, Peugeot): Also targeting 2027 for launch, using Samsung SDI's Gen 5 solid-state cells [2][1].\n- **BMW:** Plans limited production by 2027 using Samsung SDI cells, after demonstrating a solid-state battery vehicle in 2025. It has also tested Solid Power's all-solid-state cells in a BMW i7 development vehicle [1][3].\n- **BYD:** Plans to introduce its first EV with solid-state batteries in 2027, starting with small-batch trials (~1,000 vehicles) in high-end models like Denza and Yangwang, with large-scale production expected closer to 2030 [2][4][5].\n- **Chery:** Plans to introduce solid-state battery vehicles in stages, with mass production starting in 2027 [6].\n- **Geely:** Also targeting 2027 for a solid-state battery launch [2].\n- **Samsung SDI** (battery supplier for several automakers): Targeting all-solid-state mass production in 2027 [4][7].\n- **Volkswagen Group** (VW, Audi, Porsche): Working with partner QuantumScape, which targets mass production of its solid-state cells for 2027–2028. QuantumScape's cells already powered a Ducati race bike in a 2025 world debut [1][7][8].\n\n## 2027–2028\n\n- **Toyota:** Announced (October 8, 2026) a joint venture with Sumitomo Metal Mining to mass-produce cathode materials, with plans to launch a solid-state EV line in 2027 or 2028. Expected specs: ~460 miles of range and a 10-minute 10–80% charge [9][10][11].\n- **Honda:** Partnered with QuantumScape (announced June 2026) to commercialize solid-state batteries for EVs, with a timeline likely aligned to QuantumScape's 2027–2028 roadmap, though no specific year has been confirmed [12].\n\n## 2028\n\n- **Nissan:** Targeting 2028 for its first vehicle with a true (full) solid-state battery, following a pilot production line at its Yokohama plant. (Nissan is also rolling out semi-solid-state batteries in the Ariya and a possible new Leaf successor as early as 2026, but these are not full solid-state.) [1][10]\n\n## Already Selling Semi-Solid (Not Full Solid-State)\n\n- **NIO:** Currently sells a 150 kWh semi-solid-state battery pack (using WeLion cells), offering around 577 miles of range — but this is a semi-solid, not a true solid-state battery [13].\n\n## Important Caveats\n\n- **No customer deliveries yet:** As of October 2026, despite more than $10 billion invested industry-wide, no all-solid-state battery cells are yet in any customer's vehicle [7].\n- **History of delays:** Timelines have slipped before — Toyota originally promised solid-state batteries in vehicles by 2025, and QuantumScape had initially targeted 2024 production [7].\n- **Semi-solid vs. full solid-state:** Several \"solid-state\" headlines actually refer to semi-solid technology (partially liquid electrolyte), which is already on the road in cars like NIO's, while true all-solid-state batteries remain a few years from scale production [13].\n- **Mass-market scale still later:** Even where 2027 launches are announced, these are often small-batch or limited-production runs; broader commercialization is generally expected closer to 2028–2030.\n\n## Sources\n\n1. Solid-State Battery Cars 2026: Which EVs Are Getting It First? — https://www.technoolab.com/2026/05/solid-state-battery-cars-2026-which-evs.html\n2. BYD 'leading' solid-state battery race with its first EV due in 2027 — https://electrek.co/2026/09/14/byd-leading-solid-state-battery-race-first-ev-2027/\n3. Solid-State Battery Scoreboard 2025–2026: Who Shipped, Who Tested, and Who is Scaling Next — https://www.intelligentliving.co/solid-state-battery-scoreboard-2025-2026/\n4. BYD solid-state batteries: 2027 EV debut and what it means - TheStreet — https://www.thestreet.com/automotive/byd-solid-state-battery-2027\n5. BYD Says First Solid-state Battery Car Will Launch In 2027 - Dataconomy — https://dataconomy.com/2026/09/28/byd-solid-state-battery-car-launch-2027/\n6. Chery to launch first electric vehicle with solid-state battery - electrive.com — https://www.electrive.com/2026/01/19/chery-to-launch-first-electric-vehicle-with-solid-state-battery/\n7. $10 Billion, 7 Companies, 0 All-Solid Cells in Customer Cars: The 2026 Battery Scorecard — Live in the Future — https://liveinthefuture.org/stories/solid-state-battery-scorecard-2026\n8. QuantumScape Corp - Form 8-K - FY2026 — https://www.sec.gov/Archives/edgar/data/1811414/000119312526046623/qs-ex99_1.htm\n9. Toyota to launch world's first EV with a solid-state battery by 2027 — they're expected to last longer and charge faster — https://www.livescience.com/technology/electric-vehicles/toyota-to-launch-worlds-first-ev-with-a-solid-state-battery-by-2027-theyre-expected-to-last-longer-and-charge-faster\n10. Solid-State Battery Commercialization Timeline 2026: When Will It Replace NMC and LFP? — https://autoedgeview.com/battery-guides/solid-state-battery-commercialization-timeline-2026\n11. EVWORLD.COM - Toyota's Solid-State Battery Roadmap: Reality vs. Rumor — https://www.evworld.com/article.php?id=717&slug=toyotas-solid-state-battery-roadmap-reality-vs-rumor\n12. Solid-state batteries — https://electrek.co/guides/solid-state-batteries/\n13. Solid-State Batteries 2026: Advances, Challenges & Applications — https://www.bonnenbatteries.com/solid-state-batteries-advances-challenges-future-use-cases/", "forced": false, "note": null, "error": null, "cost_usd": 0.096297}
+
+event: end
+data: {"status": "completed"}
+

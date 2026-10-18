@@ -1,0 +1,304 @@
+/* Building blocks shared by the components: panels, controls, buttons, chips, tabs. */
+
+.panel {
+  min-width: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: clamp(1rem, 3vw, 1.5rem);
+}
+
+.panel h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.panelHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.35rem;
+  min-width: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.field select {
+  width: 100%;
+  font: inherit;
+  font-weight: 400;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.65rem;
+}
+
+.primary,
+.secondary,
+.ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+  border-radius: 0.6rem;
+  padding: 0.55rem 1rem;
+  cursor: pointer;
+}
+
+.primary {
+  color: var(--accent-text);
+  background: var(--accent);
+}
+
+.primary:hover:not(:disabled) {
+  background: var(--accent-strong);
+}
+
+.secondary {
+  color: var(--text);
+  background: var(--surface);
+  border-color: var(--border-strong);
+}
+
+.secondary:hover:not(:disabled) {
+  background: var(--surface-2);
+}
+
+.ghost {
+  color: var(--muted);
+  background: transparent;
+}
+
+.primary:disabled,
+.secondary:disabled,
+.ghost:disabled,
+.link:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.link {
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-strong);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.primary:focus-visible,
+.secondary:focus-visible,
+.ghost:focus-visible,
+.link:focus-visible,
+.tab:focus-visible,
+.segmented button:focus-visible,
+.field select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--muted);
+  background: var(--surface-2);
+  border-radius: 999px;
+  padding: 0.05rem 0.55rem;
+  white-space: nowrap;
+}
+
+.chipSuccess,
+.level-low {
+  color: var(--success);
+  background: var(--success-soft);
+}
+
+.chipWarning,
+.level-medium {
+  color: var(--warning);
+  background: var(--warning-soft);
+}
+
+.chipDanger,
+.level-high {
+  color: var(--danger);
+  background: var(--danger-soft);
+}
+
+.severity-high {
+  --severity: var(--high);
+  --severity-soft: var(--high-soft);
+}
+
+.severity-medium {
+  --severity: var(--medium);
+  --severity-soft: var(--medium-soft);
+}
+
+.severity-low {
+  --severity: var(--low);
+  --severity-soft: var(--low-soft);
+}
+
+.badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--severity, var(--muted));
+  background: var(--severity-soft, var(--surface-2));
+  border-radius: 0.35rem;
+  padding: 0.1rem 0.45rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.15rem;
+  margin: 1.25rem 0 1rem;
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+}
+
+.tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: -1px;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  padding: 0.55rem 0.75rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.tab[aria-selected="true"] {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+}
+
+.tab:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.tabBadge {
+  font-size: 0.72rem;
+  color: var(--muted);
+  background: var(--surface-2);
+  border-radius: 999px;
+  padding: 0 0.45rem;
+}
+
+.segmented {
+  display: inline-flex;
+  border: 1px solid var(--border-strong);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.segmented button {
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--surface);
+  border: 0;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+}
+
+.segmented button + button {
+  border-left: 1px solid var(--border-strong);
+}
+
+.segmented button[aria-pressed="true"] {
+  color: var(--accent-text);
+  background: var(--accent);
+}
+
+.spinner {
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  vertical-align: -0.15em;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spinner {
+    animation-duration: 2.4s;
+  }
+}
+
+.alert {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--danger);
+  background: var(--danger-soft);
+  border-radius: 0.6rem;
+  padding: 0.65rem 0.85rem;
+  overflow-wrap: anywhere;
+}
+
+.alert ul {
+  margin: 0.35rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.error {
+  min-height: 1.4rem;
+  margin: 0.6rem 0 0;
+  font-size: 0.9rem;
+  color: var(--danger);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.hint {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.empty {
+  margin: 0;
+  color: var(--muted);
+}

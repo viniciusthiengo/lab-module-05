@@ -1,0 +1,87 @@
+.team {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.member {
+  border: 1px solid var(--border);
+  border-radius: 0.7rem;
+  padding: 0.55rem 0.7rem;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+}
+
+.busy {
+  border-color: var(--agent);
+  background: var(--agent-soft);
+}
+
+.memberHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.role {
+  margin: 0.2rem 0 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.current {
+  margin: 0.35rem 0 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.meta {
+  margin: 0.2rem 0 0;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.notes {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0.6rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+}
+
+.notes li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.45rem;
+}
+
+.notes details {
+  min-width: 0;
+}
+
+.notes summary {
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+
+.summary {
+  margin: 0.35rem 0 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}

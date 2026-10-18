@@ -1,0 +1,119 @@
+.markdown {
+  min-width: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.markdown > :first-child {
+  margin-top: 0;
+}
+
+.markdown > :last-child {
+  margin-bottom: 0;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol {
+  margin: 0.55rem 0;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 1.35rem;
+}
+
+.markdown li + li {
+  margin-top: 0.2rem;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+  margin: 1rem 0 0.4rem;
+  font-size: 1rem;
+}
+
+.markdown code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--surface-2);
+  border-radius: 0.3rem;
+  padding: 0.05rem 0.3rem;
+}
+
+.markdown pre {
+  margin: 0.65rem 0;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+  padding: 0.7rem 0.85rem;
+  overflow-x: auto;
+}
+
+.markdown pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  overflow-wrap: normal;
+}
+
+.markdown table {
+  display: block;
+  max-width: 100%;
+  margin: 0.65rem 0;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  overflow-x: auto;
+}
+
+.markdown th,
+.markdown td {
+  border: 1px solid var(--border);
+  padding: 0.3rem 0.55rem;
+  text-align: left;
+}
+
+.markdown blockquote {
+  margin: 0.6rem 0;
+  border-left: 3px solid var(--border-strong);
+  padding-left: 0.75rem;
+  color: var(--muted);
+}
+
+.markdown a {
+  color: var(--accent-strong);
+}
+
+.citation {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.35rem;
+  height: 1.2rem;
+  margin: 0 0.1rem;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: 0.15em;
+  color: var(--accent-strong);
+  background: var(--hunk-bg);
+  border: 1px solid transparent;
+  border-radius: 0.35rem;
+  padding: 0 0.3rem;
+  cursor: pointer;
+}
+
+.citation:hover {
+  border-color: var(--accent);
+}
+
+.citation:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}

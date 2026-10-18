@@ -1,0 +1,192 @@
+:root {
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --surface-2: #f1f3f6;
+  --code-bg: #fbfcfd;
+  --text: #16202c;
+  --muted: #5c6878;
+  --border: #e2e6ec;
+  --border-strong: #cbd2db;
+  --accent: #4f46e5;
+  --accent-strong: #3f37c9;
+  --accent-text: #ffffff;
+  --danger: #b42318;
+  --warning: #b54708;
+  --success: #067647;
+  --critical: #9f1239;
+  --critical-soft: #ffe4e8;
+  --high: #d92d20;
+  --high-soft: #fee4e2;
+  --medium: #b54708;
+  --medium-soft: #fef0c7;
+  --low: #026aa2;
+  --low-soft: #e0f2fe;
+  --info: #175cd3;
+  --info-soft: #e8f0fe;
+  --success-soft: #dcfae6;
+  --danger-soft: #fee4e2;
+  --warning-soft: #fef0c7;
+  --added-bg: #e6f7ec;
+  --removed-bg: #fdecea;
+  --hunk-bg: #eef2ff;
+  --question-bg: #eef0ff;
+  --mark-bg: #fff4cc;
+  --bar: #c7c9f9;
+  --agent-supervisor: #4f46e5;
+  --agent-supervisor-soft: #eef0ff;
+  --agent-researcher: #0e7490;
+  --agent-researcher-soft: #dff6fa;
+  --agent-writer: #b45309;
+  --agent-writer-soft: #fdf1dc;
+  --agent-reviewer: #7c3aed;
+  --agent-reviewer-soft: #f2eafe;
+  --agent-fact_checker: #be123c;
+  --agent-fact_checker-soft: #ffe7ea;
+  --radius: 0.9rem;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.06), 0 4px 16px rgba(16, 24, 40, 0.06);
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1116;
+    --surface: #161b22;
+    --surface-2: #1d232c;
+    --code-bg: #11161d;
+    --text: #e6edf3;
+    --muted: #9aa5b1;
+    --border: #2a313b;
+    --border-strong: #3a434f;
+    --accent: #818cf8;
+    --accent-strong: #a5b4fc;
+    --accent-text: #0b1020;
+    --danger: #ff8a80;
+    --warning: #fdb022;
+    --success: #47cd89;
+    --critical: #ff8fa3;
+    --critical-soft: #4c0519;
+    --high: #ff9c8f;
+    --high-soft: #4a1410;
+    --medium: #fdb022;
+    --medium-soft: #3d2a05;
+    --low: #7cd4fd;
+    --low-soft: #0b2a3d;
+    --info: #84adff;
+    --info-soft: #102a56;
+    --success-soft: #053321;
+    --danger-soft: #4a1410;
+    --warning-soft: #3d2a05;
+    --added-bg: #0f2d1e;
+    --removed-bg: #3a1515;
+    --hunk-bg: #1b2140;
+    --question-bg: #1f2547;
+    --mark-bg: #3d3410;
+    --bar: #3a3f8f;
+    --agent-supervisor: #a5b4fc;
+    --agent-supervisor-soft: #1f2547;
+    --agent-researcher: #67e8f9;
+    --agent-researcher-soft: #0b2e36;
+    --agent-writer: #fcd34d;
+    --agent-writer-soft: #3a2a07;
+    --agent-reviewer: #c4b5fd;
+    --agent-reviewer-soft: #2a1b4d;
+    --agent-fact_checker: #fda4af;
+    --agent-fact_checker-soft: #43121c;
+    --shadow: none;
+    color-scheme: dark;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  width: 100%;
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 5vh, 3rem) 1rem 2.5rem;
+}
+
+.page-header {
+  margin-bottom: 1.25rem;
+}
+
+.page-header h1 {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.7rem, 4vw, 2.2rem);
+  letter-spacing: -0.02em;
+}
+
+.page-header p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 48rem;
+}
+
+.page-footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* An agent's colors, for any element with data-agent. */
+[data-agent="supervisor"] {
+  --agent: var(--agent-supervisor);
+  --agent-soft: var(--agent-supervisor-soft);
+}
+
+[data-agent="researcher"] {
+  --agent: var(--agent-researcher);
+  --agent-soft: var(--agent-researcher-soft);
+}
+
+[data-agent="writer"] {
+  --agent: var(--agent-writer);
+  --agent-soft: var(--agent-writer-soft);
+}
+
+[data-agent="reviewer"] {
+  --agent: var(--agent-reviewer);
+  --agent-soft: var(--agent-reviewer-soft);
+}
+
+[data-agent="fact_checker"] {
+  --agent: var(--agent-fact_checker);
+  --agent-soft: var(--agent-fact_checker-soft);
+}

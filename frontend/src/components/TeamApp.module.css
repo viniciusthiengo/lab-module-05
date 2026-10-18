@@ -1,0 +1,23 @@
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.side {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+
+@media (min-width: 64rem) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, 22rem);
+  }
+
+  .side {
+    position: sticky;
+    top: 1rem;
+  }
+}

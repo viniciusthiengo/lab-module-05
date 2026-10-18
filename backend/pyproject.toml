@@ -1,0 +1,17 @@
+[project]
+name = "multi-agent-research-api"
+version = "1.0.0"
+description = "A research assistant with the supervisor pattern: a Supervisor that delegates to Researcher, Writer, Reviewer and Fact-checker agents."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
